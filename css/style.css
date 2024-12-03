@@ -10,6 +10,30 @@ body {
   font-family: "Jost", sans-serif;
   font-weight: 200;
 }
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h1,
+h2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+h2 {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 28px;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
 .container {
   max-width: 600px;
   margin: 60px auto;
@@ -40,30 +64,7 @@ body {
   vertical-align: middle;
   line-height: 36px;
 }
-select {
-  display: block;
-  width: 100%;
-  border-radius: 4px;
-  padding: 10px;
-  font-family: "Jost", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-}
-h1 {
-  text-align: center;
-  font-size: 36px;
-}
 
-h1,
-h2 {
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-}
-h2 {
-  margin: 0;
-  line-height: 1.5;
-  font-size: 28px;
-}
 footer {
   text-align: center;
   font-size: 16px;
