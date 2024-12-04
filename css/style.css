@@ -11,7 +11,7 @@ body {
   font-weight: 200;
 }
 a {
-  color: #7197f6;
+  color: #8daaf1;
   text-decoration: none;
 }
 h1 {
@@ -23,6 +23,7 @@ h1,
 h2 {
   font-family: "Jost", sans-serif;
   font-weight: 400;
+  color: #000;
 }
 h2 {
   margin: 0;
@@ -37,12 +38,17 @@ select {
   font-family: "Jost", sans-serif;
   font-weight: 300;
   font-size: 18px;
+  background-color: rgba(224, 231, 247, 0.572);
 }
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background-color: #fff;
-  padding: 30px;
+  background-color: linear-gradient(
+    0deg,
+    rgba(245, 247, 250, 1) 0%,
+    rgba(200, 217, 245, 1) 100%
+  );
+  padding: 20px;
   box-shadow: 4px 4px 10px 0px rgba(24, 38, 66, 0.4);
   border-radius: 10px;
 }
